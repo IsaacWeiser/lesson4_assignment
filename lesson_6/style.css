@@ -1,4 +1,4 @@
-
+/* Isaac Weiser 4/08/19 */
 
 /*body/html*/
 body, html {
@@ -17,6 +17,7 @@ body, html {
     background:#fff;
     border-bottom:5px solid #965d3a;
     overflow:hidden;
+    width:100%;
 }
 #header img {
     max-height: 400px;
