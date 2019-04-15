@@ -1,0 +1,218 @@
+/* Isaac Weiser 4/08/19 */
+
+/*body/html*/
+body, html {
+    background:#000080;
+    font-family: sans-serif, helvetica;
+    line-height: 2em;
+    font-size: 12px;
+    color: #000080;
+    margin:0;
+    padding:0;
+    border: 0;
+    }
+    
+/*header*/
+#header {
+    background:#fff;
+    border-bottom:5px solid #965d3a;
+    overflow:hidden;
+    width:100%;
+}
+#header img {
+    max-height: 400px;
+    width:100%;
+}
+
+#header h1 {
+    letter-spacing: 1em;
+    padding-left:20px;
+    font-size: 48px;
+}
+
+#nav {
+    margin:auto;
+    width:20%;
+    font-size:18px;
+    padding-bottom: 7px;
+}
+
+
+/*content*/
+
+#content {
+    /*width:75%;*/
+    width:1100px;
+    background:#fff;
+    /*margin-right:auto;
+    margin-left:70px;*/
+    margin:0 auto;
+    padding-bottom: 50px;
+    padding-left:25px;
+    padding-right:25px;
+    /*float:left;*/
+    border-left:5px solid #965d3a;
+    border-right:5px solid #965d3a;
+    overflow:hidden;
+    
+}
+
+#content h2 {
+    margin:0;
+    font-style: italic;
+}
+
+#content h3, #content h4 {
+    margin-bottom:0;
+    font-family: "Stencil Std", arial;
+}
+
+#content h4 {
+    font-weight: bold;
+}
+
+#content p {
+    margin-top:2px;
+}
+#content img {
+  float:right;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  border:3px outset #ce7323;
+  box-shadow:6px 10px #888;
+}
+
+#content #phand {
+    margin-bottom: 15px;
+}
+
+#content table, #content th, #content td {
+     border: 1px solid black; 
+     border-collapse: collapse; 
+     font-family: georgia;
+     padding:5px;
+ }
+
+#content ol, #content ul {
+    margin-top:2px ;
+    padding-left:25px;
+}
+
+#content iframe {
+    border:3px dashed #ce7323;
+}
+
+#content #me {
+    float:right;
+    font-style: italic;
+    border:2px dashed #000;
+}
+
+#content #me p {
+    clear:both;
+    margin-top:0px;
+    padding-left: 25px;
+    margin-bottom: 2px;
+}
+
+#content #me img {
+    float:none;
+    margin:5px;
+    margin-right:12px;
+}
+
+#content #reftitle {
+    margin-bottom:8px;
+}
+
+#content #un, #content #do, #content #tre, #content #qua, #content #cinc, #content #seis, #content #och {
+    margin-bottom:0px;
+}
+
+#content ul.ref {
+    margin-bottom: 10px;
+}
+
+#content table {
+    font-family: helvetica;
+}
+
+
+/*sidebar*/
+#sidebar {
+    background:#fff;
+    float:right;
+    width: 15%;
+   /* margin-left:10px; */
+    margin-right:20px; 
+    margin-left:20px;
+    margin-top: 40px;
+    padding:5px;
+    border:2px dashed #f00;
+    border-radius: 12px;
+    box-shadow: 5px 10px #888;
+}
+
+#sidebar p {
+    line-height:1.5em;
+    margin:0;
+    overflow:hidden;
+}
+
+#sidebar #obama {
+    margin-top:3px;
+}
+
+#sidebar ul {
+    margin-top:0px ;
+}
+
+#sidebar h4 {
+    margin-bottom:0px;
+    margin-top:6px;
+}
+
+/*footer*/
+#footer{
+    clear:both;
+    background:#fff;
+    margin-bottom: 0;
+    border-top:5px solid #965d3a;
+    margin-top:0px;
+    overflow:hidden;
+}
+
+#footer #license {
+    float:left;
+    margin-right:20px;
+    padding-left:20px;
+   /* padding-bottom: 12px;*/
+}
+
+#footer p {
+    margin-bottom: 0;
+}
+
+#footer #tm {
+   margin-bottom: 0;
+   border-bottom: 22px solid #fff;
+   padding-top:3px;
+}
+
+/*links*/
+a {
+    color: #f00;
+    margin:0;
+}
+
+a:visited {
+    color: #999;
+}
+
+a:hover {
+    color:#123456;
+}
+
+a:active {
+    color:#00ff00;
+}
