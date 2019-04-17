@@ -1,0 +1,29 @@
+body {
+    padding:0;
+    margin:0;
+}
+
+#splash {
+    background-color:#fff;
+    height:1000px;
+}
+
+#overview {
+    background-color:#E84A52;
+    height:1000px;
+}
+
+#media {
+    background-color:#F7A83D;
+    height:1000px;
+}
+
+#author {
+    background-color:#30BDB5;
+    height:1000px;
+}
+
+#footer {
+    background-color:#F5F4CA;
+    height:1000px;
+}
