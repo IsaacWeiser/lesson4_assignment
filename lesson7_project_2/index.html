@@ -2,28 +2,185 @@
 <html>
     <head>
         <title>3d printing</title>
-        <link rel="stylesheet" href="style.css" type="text/css">    
+        <link rel="stylesheet" href="style.css" type="text/css">   
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet"> 
+        <link rel="shortcut icon" href="favicon.ico">
     </head>
     
     <body>
         
+        
         <section id="splash">
+            <div id="navbar">
+            <div class="container">
+                <ul id="menu">
+                    <li><a href="#splash" class="button">top</a></li>
+                    <li><a href="#overview" class="button">overview</a></li>
+                    <li><a href="#media" class="button">media</a></li>
+                    <li><a href="#author" class="button">references</a></li>
+                    <li><a href="#footer" class="button">foot</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="titlepage">
+                <h1>3D Printing</h1>
+                <h3>by Isaac Weiser</h3>
+            </div>
             
         </section>
         
         <section id="overview">
+            <id class="container">
+                <h2>Just The Basics: </h2>
+                <img id="tdht" src="prnt.jpg" alt="graphic of basic 3d process, over simplified" style="width:450px;height:300px;">
+            <h3>What is it</h3>
+            <p>According to Wikipedia, 3d printing is &quotis any of various processes in which material is joined or solidified under computer control to create a three-dimensional object, with material being added together, typically layer by layer&quot. 3d printing is what is known as additive manufacturing, this means that objects are created by adding layers one on top of another. Until recently, 3d printing was unattainable to most due to the technology being mainly undeveloped and printers being expensive. Now, 3d printing is becoming more prominent. The rise of 3d pritning could be incredibly impactful in the future. You can find 3d printers on an average college campus, and even find them in many engineering curriculums.</p>
+            <h3>How to do it</h3>
+            <p>The process of 3d printing requires that you either create or provide an STL file. The STL file is also known as the object file, this is the file that physically stores the object you want to print. You can create your own STL files using Blender, Cad, and Tinkercad. Once you have that, you must then position your object properly in the placement software, this ensures that your object will be centered on the plate and that hanging pieces will be supported in the printing process. Additionally, in this step, you can define attributes of the object such as wall thickness and infill density. The software in this portion greatly depends on the printer you have as many of them use their own proprietary software. From here, you will convert the STL file to a GCODE file. Now, all you do is send it to the printer, sit back, and wait.</p>
+            <img id="ear" src="ear.jpg" alt="3d printed ear" style="width:400px;height:250px;">
+            <h3>History</h3>
+            <p>The idea for the 3d printer was first patented in 1980 by Dr. Hideo Kodama. However, Kodama would not go on to develop his idea. In 1987, Carl Deckard created a laser technology that hardens powder to create a rigid structure. This is the technology that would make it possible for printers to melt materials and have them harden in a way that retained its structural integrity. In 1989, S. Scott Crum created a method of melting a polymer and dispensing it layer by layer to create a 3d object. Today we call this method extruding. In 2006, the first 3D printers became available for public purchase. They were a variant called sls printers, which used lasers to melt plastic. In 2009, the immensely popular  Makerbot and Thingiverse were launched bringing. Today Thingiverse is the largest repository of 3d printing projects.</p>
+       
+            <h3>Applications</h3>
+       
+            <p>3d printing is a very hot commodity right now and is praised by many as being the future. One of the largest applications is construction and material engineering, it is possible that in the future entire homes will be completely 3d printed. One large area where 3d printing is already begining to be incorporated is in the creation of prosthetic limbs and artificial organs used for transplants. Scientists already plan on creating a filament of biological material so that they can print a brand new body part. The applications of 3d printing are seemingly limitless. It is especially applicable when you consider how much more cost effective it makes the process of creation. The desire and demand for jobs to be done by 3d printing is increasing so expect it to stick around for a while.</p>
+                
+            </id>
             
         </section>
         
         <section id="media">
+            <id class="container">
+                <h2>Media</h2>
+            <div id="tdp">
+                <h4>most popular 3d printers</h4>
+                <ol>
+                    <li>Anet A8</li>
+                    <li>Monoprice Select Mini</li>
+                    <li>Creality AR-10</li>
+                    <li>Flashforge Finder</li>
+                    <li>Anycubic I3 Mega</li>
+                </ol>
+            </div>
+            <p><iframe width="560" height="315" src="https://www.youtube.com/embed/Vx0Z6LplaMU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+            <h4>3d printing Filaments</h4>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Pros</th>
+                    <th>Cons</th>
+                </tr>
+                <tr>
+                    <td>PLA</td>
+                    <td>Cheap, dimensional accuracy, easy prep</td>
+                    <td>Low melting point, brittle filaments, tends to ooze</td>
+                </tr>
+                <tr>
+                    <td>ASA</td>
+                    <td>Unaffected by sunlight, can withstand pressure, and heat resistance</td>
+                    <td>Expensive, requires very high tempature to print, printing process emits toxic fumes</td>
+                </tr>
+                <tr>
+                    <td>PETG</td>
+                    <td>Smooth surface, less suceptible to water damage</td>
+                    <td>Poor structural integrity, tendency for threads to crack</td>
+                </tr>
+                <tr>
+                    <td>ABS</td>
+                    <td>Cheap, Strong, heat resistant</td>
+                    <td>Heavy warping, odorous printing, pieces tend to shrink</td>
+                </tr>
+                <tr>
+                    <td>Nylon</td>
+                    <td>Can withstand pressure, flexible</td>
+                    <td>Warp prone, absorbs water, poor performance in moist conditions</td>
+                </tr>
+            </table>
+                <p><iframe width="560" height="315" src="https://www.youtube.com/embed/vy26jm9zYto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+                
+            </id>
             
         </section>
+            
         
         <section id="author">
+            <id class="container">
+                
+                
+                <h3 id="reftitle">References</h3>
+                <img src="tower.jpg">
+                <p id="un">3d printing</p>
+                <ul>
+                    <li>wikipedia: <a href="http://en.wikipedia.org/wiki/3D_printing" target="_blank">3d Printing</a></li>
+                    <li>3d Hub: <a href="http://www.3dhubs.com/guides/3d-printing/" target="_blank">3d Printing</a></li>
+                    <li>3d Printing: <a href="http://3dprinting.com/what-is-3d-printing/" target="_blank">3d Printing</a></li>
+                </ul>
+                
+                <p class="ref" id="do">Title: <a href="http://www.digitaltrends.com/cool-tech/history-of-3d-printing-milestones/" target="_blank">History of 3d printing milestones</a></p>
+                <ul>
+                    <li>Author: Luke Dormehl </li>
+                    <li>Publication: Digital Trends</li>
+                    <li>Date: November 4th, 20818</li>
+                </ul>
+                <p class="ref" id="tre">Title: <a href="http://www.artsy.net/article/artsy-editorial-inside-race-perfect-3d-printed" target="_blank">Inside the race for the perfect 3d printed home</a></p>
+                <ul>
+                        <li>Author: Jacqui Palumbo</li>
+                        <li>Publication: artsy.net</li>
+                        <li>Date: October 22nd, 2018</li>
+                    </ul>
+                    <p class="ref" id="qua">Title: <a href="http://www.theguardian.com/technology/2017/feb/19/3d-printed-prosthetic-limbs-revolution-in-medicine" target="_blank">3d-printed prosthetic limbs: the next revolution in medicine</a></p>
+                    <ul>
+                        <li>Author: Ian Birrell</li>
+                        <li>Publication: The Guardian</li>
+                        <li>Date: Feburary 19th, 2017</li>
+                    </ul>
+                    <p class="ref" id="cinc">Title: <a href="http://techcrunch.com/2018/06/25/implantable-3d-printed-organs-could-be-coming-sooner-than-you-think/" target="_blank">Implantable 3d organs could be coming sooner than you think</a></p>
+                    <ul>
+                        <li>Author: Jonathan Shieber</li>
+                        <li>Publication: Tech Crunch</li>
+                        <li>Date: 2018</li>
+                    </ul>
+                <p class="ref" id="seis">Title: <a href="http://www.3dnatives.com/en/top-10-popular-amazon-3d-printers-23112018/" target="_blank">top 10 most popular amazon 3d printers</a></p>
+                <ul>
+                    <li>Author: Michelle S.</li>
+                    <li>Publication: 3D Natives</li>
+                    <li>Date: November 23rd, 2018</li>
+                </ul>
+                <p class="ref" id="siet">Title: <a href="http://www.theatlantic.com/politics/archive/2013/02/obamas-2013-state-of-the-union-speech-full-text/273089/" target="_blank">3d printing Materials guide</a></p>
+                <ul>
+                    <li id="yol">Publication: Simplify 3d</li>
+                    <li id="yol">https://www.simplify3d.com/support/materials-guide/</li>
+                </ul>
+                <p class="ref" id="och">Title: <a href="https://www.theatlantic.com/politics/archive/2013/02/obamas-2013-state-of-the-union-speech-full-text/273089/" target="_blank">Obama's 2013 State of the Union Speech: Full Text</a></p>
+            
+            </id>
             
         </section>
         
         <section id="footer">
+            <id class="container">
+                <h2>About the author</h2>
+                <div id="me"><img id="hshot" src="pro_headShot.jpg" alt="its me">
+                <p>Isaac Weiser</p></div>
+                <div id="sidebar"> <!-- this is where the sidebar will be contained -->
+                   <p><q id="quote">3d printing has the potential to revolutionize the way we make almost everything</q><p id="obama"> ~Barack Obama</p></p>
+               </div>
+                <p>Isaac Weiser is a junior at FSU, majoring in ICT. I created this page as part of a homework assignment in Web Apllications Development class. 3D Printing is very applicable to my major.</p>
+                <p><table>
+                <tr class="color">
+                    <td bgcolor="#000">&nbsp; &nbsp; &nbsp;</td>
+                    <td bgcolor="#E84A52">&nbsp; &nbsp; &nbsp;</td>
+                    <td bgcolor="rgba(255,255,255,0.6)">&nbsp; &nbsp; &nbsp;</td>
+                    <td bgcolor="#30BDB5">&nbsp; &nbsp; &nbsp;</td>
+                    <td bgcolor="#F5F4CA">&nbsp; &nbsp; &nbsp;</td>
+                    <td bgcolor="rgba(255,255,255,0.4)">&nbsp; &nbsp; &nbsp;</td>
+                    <td bgcolor="rgba(42, 188, 238, 0.1)">&nbsp; &nbsp; &nbsp;</td>
+                </tr>
+            </table></p>
+            <p>For my color scheme I decided to use analoguos colors to prevent eye strain and color clashing.</p>
+                <p id ="license"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a></p>
+            <p id="tm"><a href="mailto:iaw16@my.fsu.edu">Isaac Weiser</a> 2/11/19</p>
+            </id>
             
         </section>
         
